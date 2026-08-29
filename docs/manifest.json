@@ -1,0 +1,26 @@
+{
+  "name": "lazy-promise",
+  "npm": "@ai-zen/lazy-promise",
+  "description": {
+    "zh": "惰性 Promise：延迟到首次访问 then/catch/finally 才执行 executor。",
+    "en": "Lazy Promise: defers executing the executor until then/catch/finally is first accessed."
+  },
+  "version": "1.0.2",
+  "docsRoot": "docs",
+  "locales": ["zh", "en"],
+  "defaultLocale": "zh",
+  "entry": {
+    "zh": "zh/index.md",
+    "en": "en/index.md"
+  },
+  "sections": {
+    "zh": [
+      { "title": "快速开始", "path": "zh/getting-started.md" },
+      { "title": "API 参考", "path": "zh/api/index.md" }
+    ],
+    "en": [
+      { "title": "Quick Start", "path": "en/getting-started.md" },
+      { "title": "API Reference", "path": "en/api/index.md" }
+    ]
+  }
+}
